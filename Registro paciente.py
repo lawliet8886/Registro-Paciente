@@ -177,7 +177,6 @@ class PatientRegistration(QMainWindow):
             self.encaminhamento = None
             self.label_encaminhamento.setText("") 
 
-        self.textedit_name.keyPressEvent = self.handle_keypress_event                    
                                                             
     def register_patient(self):
         try:
